@@ -14,3 +14,20 @@
 .navbar {
   border-bottom: #dddddd solid 0.06rem;
 }
+
+/* mobile screens */
+@media screen and (max-width: 575px) {
+  .nav-logo {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+  }
+}
+
+/* desktop screens */
+@media screen and (min-width: 576px) {
+  .nav-logo {
+    display: none;
+  }
+}
+

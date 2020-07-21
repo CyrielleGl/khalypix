@@ -8,19 +8,17 @@ import { CoreModule } from './core/core.module';
 import { HttpClientModule } from '@angular/common/http';
 
 import { HomeComponent } from './home/home.component';
-import { PortraitComponent } from './portrait/portrait.component';
-import { FantastiqueComponent } from './fantastique/fantastique.component';
 import { KhalyComponent } from './khaly/khaly.component';
 import { ContactComponent } from './contact/contact.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    PortraitComponent,
-    FantastiqueComponent,
     KhalyComponent,
-    ContactComponent
+    ContactComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
