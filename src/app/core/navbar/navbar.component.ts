@@ -24,7 +24,7 @@ export class NavbarComponent implements OnInit {
   @HostListener('window:scroll', ['$event'])
     handleScroll(){
       const windowScroll = window.pageYOffset;
-      if(windowScroll >= this.elementPosition){
+      if (windowScroll >= this.elementPosition){
         this.sticky = true;
       } else {
         this.sticky = false;
