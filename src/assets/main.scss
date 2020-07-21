@@ -7,6 +7,23 @@ main {
   margin-left: auto;
 }
 
+h1 {
+  font-size: 2rem;
+  color: var(--text-primary);
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: normal;
+  color: var(--text-secondary);
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: lighter;
+  color: var(--text-secondary);
+}
+
 /* mobile screens */
 @media screen and (max-width: 767px)
 {

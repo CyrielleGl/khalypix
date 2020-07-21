@@ -1,0 +1,24 @@
+.espace-bienvenue {
+  background-color: var(--secondary);
+  padding: 0.2rem;
+}
+
+.light {
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: var(--text-secondary);
+  font-weight: lighter;
+}
+
+.dark {
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: var(--text-primary);
+  font-style: italic;
+}
