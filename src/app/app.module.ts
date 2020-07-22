@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { KhalyComponent } from './khaly/khaly.component';
 import { ContactComponent } from './contact/contact.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { CarouselComponent } from './home/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
     HomeComponent,
     KhalyComponent,
     ContactComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,

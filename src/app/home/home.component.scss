@@ -22,3 +22,67 @@
   color: var(--text-primary);
   font-style: italic;
 }
+
+.container-src {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.src {
+  background-image: url("../../assets/visuels/photos/claire6.jpg");
+  width: 30rem;
+  height: 20rem;
+  background-size: cover;
+  background-position: top center;
+}
+
+.espace-contact {
+  background-color: var(--secondary);
+  padding: 0.2rem;
+  max-width: 15rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1rem;
+}
+
+.contact {
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: var(--text-secondary);
+}
+
+a {
+  text-decoration: none;
+}
+
+a p:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a div:hover {
+  background-color: var(--primary);
+}
+
+.portfolio-link-container {
+  background-color: var(--secondary);
+  padding: 0.2rem;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-link {
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: var(--text-secondary);
+}
