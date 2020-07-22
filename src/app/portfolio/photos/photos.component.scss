@@ -1,0 +1,48 @@
+ul.grid_box1 li.grid_img {
+  position: relative;
+}
+
+ul.grid_box1 li {
+  float: left;
+  width: 50%;
+}
+
+.portfolio-page {
+	background: var(--primary);
+	z-index: 1;
+	position: relative;
+}
+
+.portfolio-intro {
+  padding-left: 10rem;
+  padding-top: 2rem;
+}
+
+.portfolio-intro h2 {
+	font-size: 3rem;
+	font-weight: 600;
+  color: var(--secondary);
+}
+
+.portfolio-item {
+  width: 50%;
+  float: left;
+  padding-top: 5rem;
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+.portfolio-item.__big {
+  width: 100%;
+}
+
+.grid-item.portfolio-item.__big.__wide {
+  height: auto !important;
+  padding-bottom: 50px;
+}
+
+.set-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
