@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild, ElementRef, AfterViewInit, HostListener } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef, AfterViewInit, HostListener, Input } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -6,6 +6,9 @@ import { Component, OnInit, ViewChild, ElementRef, AfterViewInit, HostListener }
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
+
+  @Input()
+  appLogo: string;
 
   @ViewChild('stickyMenu') menuElement: ElementRef;
 

@@ -5,7 +5,7 @@ export class AppConstants {
   }
 
   public static get appLogo(): string {
-    return 'assets/visuels/picandyou-white.png';
+    return 'assets/visuels/logo-khalypix.png';
   }
 
   public static get pictoInsta(): string {

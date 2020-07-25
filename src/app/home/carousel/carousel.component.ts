@@ -8,11 +8,14 @@ import { Component, OnInit, Input } from '@angular/core';
 export class CarouselComponent implements OnInit {
 
   @Input ()
-  photos: any;
+  pictures: any;
+
+  active = false;
 
   constructor() { }
 
   ngOnInit(): void {
+    console.log(this.pictures);
   }
 
 }

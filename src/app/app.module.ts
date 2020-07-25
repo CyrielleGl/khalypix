@@ -12,7 +12,6 @@ import { KhalyComponent } from './khaly/khaly.component';
 import { ContactComponent } from './contact/contact.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { CarouselComponent } from './home/carousel/carousel.component';
-import { PhotosComponent } from './portfolio/photos/photos.component';
 
 @NgModule({
   declarations: [
@@ -21,8 +20,7 @@ import { PhotosComponent } from './portfolio/photos/photos.component';
     KhalyComponent,
     ContactComponent,
     PortfolioComponent,
-    CarouselComponent,
-    PhotosComponent
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
