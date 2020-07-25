@@ -69,6 +69,10 @@ export class PortfolioComponent implements OnInit, AfterViewInit {
       if ($(window).width() <= 972) {
         this.setForSmaller();
       }
+
+      if ($(window).width() <= 462) {
+        this.setForPhone();
+      }
     });
   }
 
@@ -93,6 +97,28 @@ export class PortfolioComponent implements OnInit, AfterViewInit {
   }
 
   setForSmaller() {
+    $('.portfolios-area').css('height', (this.introHeight * 9) + this.piHeight);
+    const height = $( '.portfolio-item.__wide').height();
+    const padBot = parseInt($( '.portfolio-item.__wide').css('padding-bottom'), 10);
+    this.piHeight = height + padBot;
+    // set the init position css of portofolio-item
+    $( '.portfolio-item' ).css('position', 'absolute');
+    $( '.portfolio-item' ).eq(0).css({ left: '0%', top: 0 });
+    $( '.portfolio-item' ).eq(1).css({ left: '0%', top: this.piHeight });
+    $( '.portfolio-item' ).eq(2).css({ left: '0%', top: (this.introHeight * 2) + this.piHeight});
+    $( '.portfolio-item' ).eq(3).css({ left: '50%', top: (this.introHeight * 2) + this.piHeight});
+    $( '.portfolio-item' ).eq(4).css({ left: '0%', top: (this.introHeight * 4) + this.piHeight });
+    $( '.portfolio-item' ).eq(5).css({ left: '0%', top: (this.introHeight * 3) + this.piHeight });
+    $( '.portfolio-item' ).eq(6).css({ left: '50%', top: (this.introHeight * 3) + this.piHeight });
+    $( '.portfolio-item' ).eq(7).css({ left: '0%', top: (this.introHeight * 6) + this.piHeight });
+    $( '.portfolio-item' ).eq(8).css({ left: '50%', top: (this.introHeight * 6) + this.piHeight });
+    $( '.portfolio-item' ).eq(9).css({ left: '0%', top: (this.introHeight * 7) + this.piHeight });
+    $( '.portfolio-item' ).eq(10).css({ left: '50%', top: (this.introHeight * 7) + this.piHeight });
+    $( '.portfolio-item' ).eq(11).css({ left: '0%', top: (this.introHeight * 8) + this.piHeight });
+    $( '.portfolio-item' ).eq(12).css({ left: '50%', top: (this.introHeight * 8) + this.piHeight});
+  }
+
+  setForPhone() {
     $('.portfolios-area').css('height', (this.introHeight * 12) + this.piHeight);
     const height = $( '.portfolio-item.__wide').height();
     const padBot = parseInt($( '.portfolio-item.__wide').css(), 0);
