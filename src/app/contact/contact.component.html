@@ -1,0 +1,48 @@
+<main>
+
+  <div>
+      <h2>Contactez Khäly Pix</h2>
+  </div>
+
+  <br>
+
+  <div>
+    <p>Vous avez des questions à propos de mes services ? Vous aimez mon travail et souhaitez me le dire ?</p>
+    <p>Merci de me contacter via le formulaire ci-dessous. Je vous répondrai dans les plus brefs délais.</p>
+  </div>
+
+  <br>
+      <div class="container-src">
+        <div class="src"></div>
+      </div>
+  <br>
+
+  <form class="contact-form" [formGroup]="FormData" (ngSubmit)="onsubmit(FormData.value)">
+
+    <div class="form-group col-md-6">
+        <label>Prénom</label>
+        <input type="text" class="form-control" name="Prenom" formControlName="Prenom" placeholder="Votre prénom">
+    </div>
+
+    <div class="form-group col-md-6">
+        <label>Nom</label>
+        <input type="text" class="form-control" name="Nom" formControlName="Nom" placeholder="Votre nom">
+    </div>
+
+    <div class="form-group col-md-6">
+      <label for="inputEmail">Email</label>
+      <input type="email" class="form-control" id="inputEmail" name="Email" formControlName="Email" placeholder="Votre email">
+    </div>
+
+    <div class="form-group col-md-6">
+      <label for="FormControlTextarea">Votre message</label>
+    <textarea class="form-control" id="FormControlTextarea" rows="3" name="Message" formControlName="Message" placeholder="Ecrivez ici"></textarea>
+    </div>
+
+    <button type="submit" id="form-btn" class="btn btn-primary" [disabled]="!FormData.valid">Envoyer</button>
+
+  </form>
+
+  <br>
+
+</main>

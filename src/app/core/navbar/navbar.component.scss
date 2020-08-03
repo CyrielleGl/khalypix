@@ -1,0 +1,40 @@
+#collapsibleNavbar {
+  align-items: center;
+  justify-content: center;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  z-index: 10;
+  width: 100%;
+}
+
+.navbar {
+  border-bottom: #dddddd solid 0.06rem;
+}
+
+/*
+a.nav-link.active {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+*/
+
+/* mobile screens */
+@media screen and (max-width: 575px) {
+  .nav-logo {
+    display: block;
+    padding: 0rem 1rem;
+    color: #ffffff;
+  }
+}
+
+/* desktop screens */
+@media screen and (min-width: 576px) {
+  .nav-logo {
+    display: none;
+  }
+}
+
