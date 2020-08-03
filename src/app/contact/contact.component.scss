@@ -20,18 +20,16 @@
   margin-left: auto;
 }
 
-/*
-.src {
-  background-image: url("");
-  width: 30rem;
-  height: 15rem;
-  background-size: cover;
-  background-position: center;
-}
-*/
-
 .container-src {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.src {
+  background-image: url("../../assets/visuels/photos/juliette2.jpg");
+  width: 30rem;
+  height: 20rem;
+  background-size: cover;
+  background-position: top center;
 }
