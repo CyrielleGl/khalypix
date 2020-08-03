@@ -17,6 +17,9 @@
 	color: #fff;
 }
 
+#transp:hover {
+  opacity: 0.6;
+}
 
 /* ----------------
   Portfilio page
@@ -73,86 +76,6 @@
 	color: #fff;
 }
 
-.footer-section {
-	padding: 116px 0 130px;
-}
-
-/* ---------------------
- Portfolio single page
-------------------------*/
-
-.portfilio-single {
-	height: 918px;
-	padding: 270px 30px 0;
-}
-
-.portfolio-single-content {
-	max-width: 590px;
-}
-
-.portfolio-single-content span {
-	font-size: 14px;
-	font-weight: 500;
-}
-
-.portfolio-single-content h2 {
-	font-size: 72px;
-	font-weight: 600;
-	margin-bottom: 30px;
-}
-
-.portfolio-single-content p {
-	opacity: 0.5;
-	margin-bottom: 30px;
-}
-
-.portfolio-single-content ul {
-	list-style: none;
-	padding-top: 20px;
-}
-
-.portfolio-single-content ul li {
-	color: #000;
-	font-size: 14px;
-	color: #fff;
-	margin-bottom: 15px;
-}
-
-.portfolio-single-content ul li h6 {
-	font-size: 14px;
-	width: 63px;
-	display: inline-block;
-}
-
-.portfolio-single-content ul li span {
-	opacity: 0.5;
-}
-
-.portfolio-slider-warp {
-	position: relative;
-}
-
-.portfolio-slider-warp .owl-carousel .owl-nav {
-	position: absolute;
-	top: 50%;
-	margin-top: -12px;
-	right: 52px;
-}
-
-.portfolio-slider-warp .slide-num-holder {
-	position: absolute;
-	top: 50%;
-	right: 101px;
-	z-index: 99;
-	color: #fff;
-	font-weight: 500;
-	margin-top: -10px;
-	font-size: 16px;
-}
-
-.portfolio-slider-warp .center img {
-	border: 2px solid #fff;
-}
 
 /* ----------------
   Responsive
@@ -218,7 +141,7 @@
     padding: 0;
 	}
 	.portfolio-item {
-		width: 50%;
+		width: 100%;
 	}
 	.portfolio-item.__big {
 		width: 100%;
