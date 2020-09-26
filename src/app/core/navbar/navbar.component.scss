@@ -1,6 +1,6 @@
 #collapsibleNavbar {
-  align-items: center;
-  justify-content: center;
+  align-items: right;
+  justify-content: right;
 }
 
 .fixed{
@@ -9,10 +9,6 @@
   right: 0;
   left: 0;
   z-index: 1030;
-}
-
-.navbar {
-  border-bottom: #dddddd solid 0.06rem;
 }
 
 /*
