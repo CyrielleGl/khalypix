@@ -3,12 +3,12 @@
   justify-content: center;
 }
 
-.sticky{
-  position: fixed;
+.fixed{
+  position: sticky;
   top: 0;
-  overflow: hidden;
-  z-index: 10;
-  width: 100%;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
 
 .navbar {
