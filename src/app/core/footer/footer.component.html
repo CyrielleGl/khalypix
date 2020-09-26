@@ -1,12 +1,28 @@
-<div class="footer-style" style="margin-bottom:0; color: #ffffff; border-radius: 0;">
+<div class="footer-style">
   <a href="https://www.instagram.com/khalypix/" target="_blank">
     <img [src]="pictoInsta" width="16rem" title="Suivez-moi sur Instagram" alt="Logo Instagram blanc">
   </a>
 
   <br><br>
 
-  &copy;
-  <span [innerText]="yearNow"></span>&nbsp;<span [innerText]="appTitle"></span>&nbsp;
-  <span>-&nbsp;Mentions légales</span>
+  <div class="nav-footer">
+    <p>
+      <span>
+        <a class="link" title="Accueil" [routerLink]="['home']" [routerLinkActive]="['active']">Accueil</a>
+        •
+        <a class="link" title="Mentions légales" [routerLink]="['mentions-legales']" [routerLinkActive]="['active']">Mentions légales</a>
+        •
+        <a class="link" title="Contact" [routerLink]="['contact']" [routerLinkActive]="['active']">Contact</a>
+      </span>
+    </p>
+  </div>
+
+  <div class="copyright">
+    <p>
+      Copyright
+      &copy;
+      <span [innerText]="yearNow"></span>&nbsp;<span [innerText]="appTitle"></span>
+    </p>
+  </div>
 
 </div>
