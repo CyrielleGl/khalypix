@@ -8,9 +8,6 @@ import { far } from '@fortawesome/free-regular-svg-icons';
 })
 export class UtilsService {
 
-  faEllipsisV = faEllipsisV;
-  faBars = faBars;
-
   constructor(private faIconLibrary: FaIconLibrary) { }
 
   initFaIcons(): void {

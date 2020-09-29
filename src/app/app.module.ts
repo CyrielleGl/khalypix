@@ -28,8 +28,8 @@ import { MentionsLegalesComponent } from './mentions-legales/mentions-legales.co
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CoreModule,
     SharedModule,
+    CoreModule,
     ReactiveFormsModule,
     HttpClientModule
   ],
