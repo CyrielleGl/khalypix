@@ -1,5 +1,4 @@
 #collapsibleNavbar {
-  align-items: right;
   justify-content: right;
 }
 
@@ -31,6 +30,11 @@ a.nav-link.active {
 @media screen and (min-width: 576px) {
   .nav-logo {
     display: none;
+  }
+
+  .navbar-expand-sm .navbar-collapse {
+    display: grid !important;
+    flex-basis: auto;
   }
 }
 

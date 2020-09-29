@@ -5,21 +5,20 @@ import { Component, OnInit, ViewChild, ElementRef, AfterViewInit, HostListener, 
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.scss']
 })
-export class NavbarComponent implements OnInit {
+export class NavbarComponent implements OnInit, AfterViewInit {
 
   @Input()
   appLogo: string;
 
   @ViewChild('stickyMenu') menuElement: ElementRef;
 
-  sticky: boolean = false;
+  sticky = false;
   elementPosition: any;
 
   constructor() { }
 
   ngOnInit() {}
 
-  // tslint:disable-next-line: use-lifecycle-interface
   ngAfterViewInit(){
     this.elementPosition = this.menuElement.nativeElement.offsetTop;
   }

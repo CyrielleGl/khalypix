@@ -5,6 +5,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
+import { SharedModule } from './shared/shared.module';
 import { HttpClientModule } from '@angular/common/http';
 
 import { HomeComponent } from './home/home.component';
@@ -28,6 +29,7 @@ import { MentionsLegalesComponent } from './mentions-legales/mentions-legales.co
     BrowserModule,
     AppRoutingModule,
     CoreModule,
+    SharedModule,
     ReactiveFormsModule,
     HttpClientModule
   ],
