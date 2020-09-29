@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
-import { faBars, faEllipsisV, fas } from '@fortawesome/free-solid-svg-icons';
+import { faCameraRetro, fas } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 
 @Injectable({
@@ -12,8 +12,7 @@ export class UtilsService {
 
   initFaIcons(): void {
     this.faIconLibrary.addIcons(
-      faEllipsisV,
-      faBars
+      faCameraRetro
     );
     this.faIconLibrary.addIconPacks(
       fas,
